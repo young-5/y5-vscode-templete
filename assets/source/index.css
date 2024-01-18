@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+  color: #fff;
+}
+#list {
+  margin-top: 24px;
+}
+#list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+#list li div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+li div :hover {
+  background-color: #767676;
+}
+#add {
+  margin-top: 10px;
+  padding: 0 8px;
+  width: 100%;
+}
+.finish {
+  text-decoration: line-through;
+}
+
+#taoists,
+#node {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 8px;
+  border-bottom: 1px solid #eee;
+  background-color: #4d4d4d;
+  cursor: pointer;
+  color: #fff;
+}
+#taoists:hover {
+  background-color: #767676;
+}
+#node:hover {
+  background-color: #767676;
+}
